@@ -25,3 +25,6 @@ def calculate():
   ans = "nincs értelmezve"
 
 st.success(f"Answer = {ans}")
+
+if st.button("Calculate result"):
+ calculate()
