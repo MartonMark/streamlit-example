@@ -1,4 +1,4 @@
-inport streamlit as st
+import streamlit as st
 
 st.title("Calculator App using Streamlit")
 
