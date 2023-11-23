@@ -8,4 +8,4 @@ num1 = st.number_input(label="Enter first number")
 num2 = st.number_input(label="Enter second number")
 st.write("Operation")
  
-operation = st.radio("Select an operation to perform:",("összebaszás", "kibaszás","szorbaszás","basztás"))
+operation = st.radio("Select an operation to perform:",("összebaszás", "kibaszás", "szorbaszás", "basztás"))
