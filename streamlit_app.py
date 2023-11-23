@@ -28,8 +28,5 @@ def calculator():
   st.succes(f"valasz = {ans}")
 
 if st.button("calculator"):
-  calculate()
+    calculate()
     
-    
-
-
