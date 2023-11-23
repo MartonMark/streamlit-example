@@ -21,7 +21,7 @@ def calculator():
   elif muveletek == "osztas" and number2!=0:
     ans = number1 / number2 
   else:
-    st.warning("XDDDDD annyira siralmas vagy nemtudok mit mondani"):
+    st.warning("XDDDDD annyira siralmas vagy nemtudok mit mondani")
     ans = "szar"
 
 
