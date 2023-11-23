@@ -13,13 +13,13 @@ ans = 0
 
 def calculator():
   if muveletek == "osszeadas":
-    ans = number1 + number2
+      ans = number1 + number2
   elif muveletek == "kivonas":
-    ans = number1 - number2
+      ans = number1 - number2
   elif muveletek == "szorzas":
-    ans = number1 * number2
+      ans = number1 * number2
   elif muveletek == "osztas" and number2!=0:
-    ans = number1 / number2 
+      ans = number1 / number2 
   else:
     st.warning("XDDDDD annyira siralmas vagy nemtudok mit mondani")
     ans = "szar"
