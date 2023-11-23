@@ -11,7 +11,7 @@ st.radio("muveletek",("osszeadas", "kivonas", "szorzas", "osztas"))
 
 ans = 0
 
-def Calculator():
+def calculate():
   if muveletek == "osszeadas":
     ans = number1 + number2
   elif muveletek == "kivonas":
@@ -29,4 +29,4 @@ def Calculator():
 
 if st.button("calculator"):
   calculate()
-    
+
