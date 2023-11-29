@@ -35,4 +35,4 @@ if st.button("calculator"):
 
 
 
-xdd = st.slider("valassz mennyi kukit szeretnel a seggede", 0,6)
+xdd = st.slider("valassz mennyi kukit szeretnel a seggede", 0,10)
