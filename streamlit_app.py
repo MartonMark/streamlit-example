@@ -7,7 +7,7 @@ number1 = st.number_input(label = "szam 1")
 number2 = st.number_input(label = "szam 2")
 
 st.write("muveletek")
-st.radio("muveletek",("osszeadas", "kivonas", "szorzas", "osztas"))
+muveletek = st.radio("muveletek",("osszeadas", "kivonas", "szorzas", "osztas"))
 
 ans = 0
 
