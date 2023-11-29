@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("számológép")
+st.title("szamologep")
 st.write("---")
 
 number1 = st.number_input(label = "szam 1")
