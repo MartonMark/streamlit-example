@@ -3,7 +3,7 @@ import streamlit as st
 st.title("szamologep")
 st.write("---")
 
-numuber1 = st.nmber_input(label = "szam 1")
+number1 = st.number_input(label = "szam 1")
 number2 = st.number_input(label = "szam 2")
 
 st.write("operation")
