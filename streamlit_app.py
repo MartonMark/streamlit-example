@@ -36,5 +36,5 @@ if st.button("calculator"):
 
 
 xdd = st.slider("valassz mennyi kukit szeretnel a seggede", 0,10)
-kakaxd = 1
-st. number_input
+number = st.number_input('Adj meg egy szamot koszikee')
+st.write("ez a szamod nem? tudom buvesz vagyok koszi" number)
