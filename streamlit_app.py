@@ -36,3 +36,5 @@ if st.button("calculator"):
 
 
 xdd = st.slider("valassz mennyi kukit szeretnel a seggede", 0,10)
+kakaxd = 1
+st. number_input
