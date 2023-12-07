@@ -56,7 +56,7 @@ def main():
     # Elküld gomb
     if st.button("Elküld"):
         if name and email:
-            save_to_file(name, email)
+            save_to_file(name, email, age, gender)
             st.success(f"Köszönjük, {name}! Az e-mail címed: {email}. Az adatokat elmentettük.")
         else:
             st.error("Kérlek, töltsd ki mindkét mezőt!")
