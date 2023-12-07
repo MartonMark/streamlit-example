@@ -1,1 +1,1 @@
-
+git add adatok.txt
