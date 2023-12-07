@@ -68,3 +68,5 @@ def save_to_file(name, email, age, gender):
 
 if __name__ == "__main__":
     main()
+
+st.write(adatok.txt)
