@@ -62,7 +62,7 @@ def main():
             st.error("Kérlek, töltsd ki mindkét mezőt!")
                 
 
-def save_to_file(name, email,age):
+def save_to_file(name, email, age, gender):
     with open("adatok.txt", "a") as file:
         file.write(f"Név: {name}, E-mail: {email}\n,{age},{gender} ")
 
