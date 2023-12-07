@@ -39,34 +39,22 @@ st.write(xdd**2)
 
 
 def main():
-    st.title("E-mail Bekérés")
-
-    # Felhasználó nevének bekérése
-    name = st.text_input("Kérlek, add meg a neved:")
-
-    # E-mail cím bekérése
-    email = st.text_input("Kérlek, add meg az e-mail címed:")
-
-    age = st.number_input("Kérlek, add meg az életkorod:", min_value=0, max_value=300)    
-
-    gender = st.selectbox(
-    'nemed',
-    ('Ferfi', 'No', 'slampos'))
+    # ... (a többi rész a kódodnak)
 
     # Elküld gomb
     if st.button("Elküld"):
         if name and email:
             save_to_file(name, email, age, gender)
             st.success(f"Köszönjük, {name}! Az e-mail címed: {email}. Az adatokat elmentettük.")
+            
+            # Fájl tartalmának megjelenítése
+            with open("adatok.txt", "r") as file:
+                file_contents = file.read()
+                st.code(file_contents, language="text")
         else:
             st.error("Kérlek, töltsd ki mindkét mezőt!")
                 
-
-def save_to_file(name, email, age, gender):
-    with open("adatok.txt", "a") as file:
-        file.write(f"Név: {name}, E-mail: {email}\n,{age},{gender} ")
+# ... (a többi rész a kódodnak)
 
 if __name__ == "__main__":
     main()
-
-
