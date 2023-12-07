@@ -31,6 +31,9 @@ if st.button("calculator"):
   calculate()
 
 
+option = st.selectbox(
+    'nemed',
+    ('Ferfi', 'No'))
 
 
 
@@ -41,5 +44,9 @@ st.write(xdd**2)
 
 import streamlit as st
 
-title = st.text_input('add ma meg az emailod legyszike')
-st.write('koszike', title)
+email = st.text_input('add ma meg az emailod legyszike')
+nev = st.text_input('add ma meg az neved legyszike')
+xddddfdddddd = st.slider("eletkorod", 1,100)
+
+
+
